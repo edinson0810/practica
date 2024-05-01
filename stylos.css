@@ -1,40 +1,44 @@
-body {
-  text-align: center;
+*{
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+body{font-family: Arial, Helvetica, sans-serif;
+font-size: 13px;
+}
+
+.otra{
   
+  display:block;
+  width: 350px;
+  box-shadow: 3px 3px 3px 3px gray;
+  border-radius: 5px 5px 5px;
+  margin: 10px auto;
+  padding: 0 0 20px 0;
+}
+.imagen{display:block;
+width: 350px;
+border-radius: 5px 5px 0 0;
 }
 
-.spidy {
-  width: 340px;
-  height: 430px;
-  box-shadow: 2px 2px 2px 2px black;
-  border-radius: 3px;
-  display: inline-block;
-    }
-p{padding: 0px 20px 20px 20px;
-margin: 0px;}
+h1{color: red;
+text-align: center;
+padding: 6px 0;}
 
-h1 {
-  color: red;
+p{text-align: center;
+padding:3px 20px;}
+
+.boton{text-decoration: none; display:block; 
+background-color: red; color: aliceblue; 
+width: 80px;
+margin: 8px auto ;
+padding: 8px 8px;
+text-align: center;
+
 }
 
-button {
-  color: aliceblue;
-  border-radius: 5px ;
-  background-color: red;
-  width: 150px;
-  height: 40px;
-}
+.goku{filter: drop-shadow(0 0 15px yellow);
+width: 350px;
+display: block;}
 
-img {
-  width: 340px;
-}
-
-.goku {
-  
-  filter: drop-shadow(-10px -10px 10px yellow);
-}
-
-.spidy2 {
-
-  filter: drop-shadow(-5px -5px 10px red);
-}
+.spidy2{filter: drop-shadow(0 0 15px red);}
