@@ -41,4 +41,15 @@ text-align: center;
 width: 350px;
 display: block;}
 
-.spidy2{filter: drop-shadow(0 0 15px red);}
+.spidy2{filter: drop-shadow(0 0 15px red);
+width: 350px;
+display:block}
+.hola{text-align: center;
+  color: blue;
+width: 100px;
+padding: 10px;
+}
+
+p:hover{color: red;}
+p::first-letter{font-size: 20px; color: blue;}
+
