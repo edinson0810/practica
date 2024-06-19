@@ -1,64 +1,98 @@
-*{
+* {
   margin: 0 auto;
   padding: 0 auto;
 }
 
-body{font-family: Arial, Helvetica, sans-serif;
-font-size: 13px;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  background-color: cadetblue;
 }
 
-.otra{
-  
-  display:block;
+
+
+.otra {
+
+  display: block;
   width: 350px;
   box-shadow: 3px 3px 3px 3px gray;
   border-radius: 5px 5px 5px;
   margin: 10px auto;
   padding: 0 0 20px 0;
 }
-.imagen{display:block;
-width: 350px;
-border-radius: 5px 5px 0 0;
+
+.imagen {
+  display: block;
+  width: 350px;
+  border-radius: 5px 5px 0 0;
 }
 
-h1{color: red;
-text-align: center;
-padding: 6px 0;}
+h1 {
+  color: red;
+  text-align: center;
+  padding: 6px 0;
+}
 
-p{text-align: center;
-padding:3px 20px;}
+p {
+  text-align: center;
+  padding: 3px 20px;
+}
 
-.boton{text-decoration: none; display:block; 
-background-color: red; color: aliceblue; 
-width: 80px;
-margin: 8px auto ;
-padding: 8px 8px;
-text-align: center;
+.boton {
+  text-decoration: none;
+  display: block;
+  background-color: red;
+  color: black;
+  width: 80px;
+  margin: 8px auto;
+  padding: 8px 8px;
+  text-align: center;
+  border-radius: 10px;
 
 }
 
-.goku{filter: drop-shadow(0 0 15px yellow);
-width: 350px;
-display: block;}
+.boton:focus {
+  background-color: gold;
+}
 
-.spidy2{filter: drop-shadow(0 0 15px red);
-width: 350px;
-display:block}
-.hola{text-align: center;
+.goku {
+  filter: drop-shadow(0 0 15px yellow);
+  width: 350px;
+  display: block;
+}
+
+.spidy2 {
+  filter: drop-shadow(0 0 15px red);
+  width: 350px;
+  display: block
+}
+
+.hola {
+  text-align: center;
   color: blue;
-width: 100px;
-padding: 10px;
+  width: 100px;
+  padding: 10px;
 }
-.goku:hover{cursor: pointer;
-transform: scale(1.20);
-filter: drop-shadow(0 0 80px yellow);
-box-shadow: 0 0 50px yellow;}
 
-.spidy2:hover{cursor: pointer;
-transform: scale(2);
-box-shadow: 0 0 50px red;
-filter: drop-shadow( 0 0 20px red);}
+.goku:hover {
+  cursor: pointer;
+  transform: scale(1.20);
+  filter: drop-shadow(0 0 80px yellow);
+  box-shadow: 0 0 50px yellow;
+}
 
-p:hover{color: red;}
-p::first-letter{font-size: 20px; color: blue;}
+.spidy2:hover {
+  cursor: pointer;
+  transform: scale(2);
+  box-shadow: 0 0 50px red;
+  filter: drop-shadow(0 0 20px red);
+}
 
+p:hover {
+  color: red;
+}
+
+p::first-letter {
+  font-size: 20px;
+  color: blue;
+}
